@@ -1,0 +1,44 @@
+body { 
+font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal; 
+
+background-image: url("images/nature.jpg");
+background-attachment: fixed;
+}
+
+
+#wrapper {
+background-color: #FF69B4;
+padding: 40px;
+width: 60%;
+margin: 100px auto 100px auto;
+}
+
+nav { background-color: #DDA0DD;
+padding: 20px;
+text-align: center;
+font-size: 20px;
+font-weight: 900;
+}
+
+h1 {font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;}
+
+
+nav a { 
+margin: 0px 10px 0px 10px; 
+color: #000;
+text-decoration: none;}
+
+nav a:hover { color: #F00; }
+
+
+img.enlargement { height:250px;
+width: auto; }
+
+img.thumbnail { height: 155px;
+width:auto; }
+
+header h1 { color: #8A2BE2 }
