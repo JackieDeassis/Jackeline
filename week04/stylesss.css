@@ -1,0 +1,107 @@
+body { 
+font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal; 
+
+background-image: url("images/mexican-food.jpg");
+background-attachment: fixed;
+}
+
+
+#wrapper {
+background-color: #E0FFFF;
+padding: 40px;
+width: 70%;
+margin: 100px auto 100px auto;
+}
+
+nav { background-color: #F08080;
+padding: 20px;
+text-align: center;
+font-size: 20px;
+font-weight: 900;
+}
+
+
+nav a {color: #800000;
+      text-decoration: none;
+      margin: 0px 20px;
+      background-color: #FFFFF0;
+      padding: 10px;
+      border: solid 4px #000;}
+
+ header,h1 {
+text-align: center;
+font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ color: #B22222;}
+ 
+ h2 {text-align: center;
+      font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #228B22;
+  font-size: 22px;}
+
+p { font-family: "Vidaloka", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #B22222;}
+
+  li {font-family: "Expletus Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+color: #008000} 
+
+article.intro img.introThumb {
+
+      border: solid 10px #B22222;
+      background-color: #FFFAF0;
+      padding: 5px;
+      margin: 30px;
+      
+
+    }
+
+article.intro img.introend {
+
+      border: solid 10px #008000;
+      background-color: #B22222;
+      padding: 5px;
+      margin: 30px;
+    
+
+    }
+
+article.intro img.introbeg {
+
+      border: solid 10px #FFFAF0;
+      background-color: #008000;
+      padding: 5px;
+      margin: 30px; }
+
+article.intro img.intro {
+
+      border: solid 10px #008000;
+      background-color: #B22222;
+      padding: 5px;
+      margin: 30px;
+      
+    }
+
+article.intro img.introjd {
+
+      border: solid 10px #FFFAF0;
+      background-color: #008000;
+      padding: 5px;
+      margin: 30px; }
+
+
+
+
+
+footer {color: #5F9EA0}
+

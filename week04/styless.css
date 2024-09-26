@@ -1,0 +1,118 @@
+body { background-color: #F08080; 
+       margin: 0px;
+       padding: 0px;
+   	   font-family: "Grape Nuts", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #8B0000;
+
+       }
+
+
+#wrapper { background-color: #FFFAF0;
+           width: 80%;
+           margin: 0px auto;
+       	   border: dotted 10px #228B22;
+       	   padding: 40px;
+
+}  
+
+nav { background-color: #228B22;
+       		  padding: 20px;
+       		  text-align: center;
+       		  font-weight: 800;
+       	}
+
+nav a {color: #800000;
+			text-decoration: none;
+			margin: 0px 20px;
+			background-color: #FFFFF0;
+			padding: 10px;
+			border: solid 4px #000;}
+
+ header,h1 {text-align: center;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+   color: #800000;
+}
+
+header, h2 {  
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #800000;
+  font-size: 50px;
+
+ }
+
+header, h3 { font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center; 
+  font-size: 25px;
+  color: #800000;
+
+}
+
+p {font-family: "Spectral SC", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #2E8B57
+;}
+
+h4 {text-align: center;
+    font-family: "Black And White Picture", system-ui;
+  font-weight: 400;
+  font-style: normal; 
+  font-size: 50px;}
+
+nav a:hover {
+		      background-color: #90EE90;
+
+
+		}
+
+
+a { text-decoration: none;
+    color: #2E8B57; }
+
+
+ article.intro img.introThumb {
+
+			border: solid 10px #B22222;
+			background-color: #FFFAF0;
+			padding: 5px;
+			margin: 30px;
+			
+
+		}
+
+article.intro img.introend {
+
+      border: solid 10px #008000;
+      background-color: #B22222;
+      padding: 5px;
+      margin: 30px;
+      
+ 
+
+    }
+
+article.intro img.introbeg {
+
+      border: solid 10px #FFFAF0;
+      background-color: #008000;
+      padding: 5px;
+      margin: 30px; }
+
+
+
+
+article.intro img.introThumb: hover {background-color: #f00;
+
+}
+

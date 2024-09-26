@@ -1,0 +1,122 @@
+body { background-color: #F5FFFA; 
+       margin: 0px;
+       padding: 0px;
+   	   font-family: Helvetica; }
+
+
+#wrapper { background-color: #3CB371;
+           width: 80%;
+           margin: 0px auto;
+       	   border: dotted 10px #F00;
+       	   padding: 40px;
+
+}  
+
+nav { background-color: #F00;
+       		  padding: 20px;
+       		  text-align: center;
+       		  font-weight: 800;
+       	}
+
+nav a {color: #2E8B57;
+			text-decoration: none;
+			margin: 0px 20px;
+			background-color: #FFFAFA;
+			padding: 10px;
+			border: solid 4px #000;}
+
+ header,h1 {text-align: center;
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+   color: #F5FFFA;
+}
+
+header, h2 {  font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 25px;
+  color: #800000;
+ }
+
+header, h3 { font-family: "Victor Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center; 
+  font-size: 25px;
+  color: #800000;
+
+}
+
+p {font-family: "Mansalva", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	color: #F5FFFA;
+font-size: 20px;}
+
+
+nav a:hover {
+		      background-color: #F00;
+
+
+		}
+
+article.intro img.introThumb {
+
+			border: solid 10px #B22222;
+			background-color: #FFFAF0;
+			padding: 5px;
+			margin: 30px;
+			
+
+		}
+
+article.intro img.introend {
+
+      border: solid 10px #008000;
+      background-color: #B22222;
+      padding: 5px;
+      margin: 30px;
+    
+
+    }
+
+article.intro img.introbeg {
+
+      border: solid 10px #FFFAF0;
+      background-color: #008000;
+      padding: 5px;
+      margin: 30px; }
+
+article.intro img.intro {
+
+      border: solid 10px #008000;
+      background-color: #B22222;
+      padding: 5px;
+      margin: 30px;
+      
+    }
+
+article.intro img.introjd {
+
+      border: solid 10px #FFFAF0;
+      background-color: #008000;
+      padding: 5px;
+      margin: 30px; }
+
+
+
+
+article.intro img.introThumb: hover {background-color: #f00;
+
+}
+
+footer {color: #5F9EA0
+}
+
+
