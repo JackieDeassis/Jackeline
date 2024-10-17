@@ -1,0 +1,143 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+	background-color: #ccc;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 { text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #DB7093;
+  text-decoration: underline;}
+
+h1 { text-align: center;
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FA8072;}
+
+p{  font-family: "Unkempt", cursive;
+  font-weight: 700;
+  font-style: normal;
+
+
+}
+
+div.container {
+  width: 90%;
+  margin: 0px auto;
+  background-color: #FFF0F5;
+}
+
+header,nav,main,footer {
+	padding: 15px;
+}
+
+header {
+  background-color: #ADD8E6;
+}
+
+nav {
+  background-color: #FFB6C1;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+display: inline-block;
+background-color: #FFE4E1;
+width: 100px;
+text-align: center;
+padding: 10px 0px;
+margin: 0px 20px 0px 0px;
+border: solid 1px #000;
+}
+
+main {
+  background-color: #AFEEEE;
+  float: left;
+  width: 70%;
+}
+
+
+main div.description img.thumbnail {
+width: 100px;
+border: solid 5px;
+float: left;
+margin-right: 15px;
+color: greenyellow;
+}
+
+div.buttonAbsolute {
+  background-color: #DDA0DD;
+  position: absolute;
+  top: 0px;
+  right: 150px;
+  padding: 20px;
+  border-radius: 125px;
+  z-index: 2;
+}
+
+div.buttonAbsolute2 { background-color: #9370DB;
+   position: absolute;
+  top: 0px;
+  right: 260px;
+  border-radius: 200px;
+  padding: 20px;
+  z-index: 3;
+  width: 100px;
+  height: 100px;
+  opacity: 0.6;
+
+}
+
+aside {
+  background-color: #D8BFD8;
+  float: left;
+  width: 30%;
+}
+footer {
+  background-color: #4682B4;
+  float: none;
+  clear: both;
+}
+
+
+div.buttonAbsolute, 
+div.buttonAbsolute2
+
+ {
+  color: yellow;
+}
+
+
+nav a {color: #008B8B;
+      text-decoration: none;
+      margin: 0px 20px;
+      background-color: #E0FFFF;
+      padding: 10px;
+      border: solid 3px #000;}
+
+      a {
+        text-decoration: none;
+
+        color: #8A2BE2;
+      }
+

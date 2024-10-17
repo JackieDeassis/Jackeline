@@ -1,0 +1,158 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+	background-color: #9932CC;
+	padding: 30px;
+	margin: 0px;
+}
+
+
+h1 { text-align: center;
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1E90FF;
+text-decoration: underline;}
+
+h2 {
+   font-family: "Sniglet", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #A52A2A;
+  text-decoration: underline;
+}
+
+p{  ont-family: "Federo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F08080;
+}
+
+* { box-sizing: border-box;
+
+ }
+.column { float: left;
+  width: 33.33%;
+  padding: 5px;
+
+}
+
+.row: :after { content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+div.container {
+  width: 80%;
+  margin: 0px auto;
+  background-color: #D8BFD8;
+}
+
+header,nav,main,footer {
+	padding: 30px;
+}
+
+header {
+  background-color: #AFEEEE;
+}
+
+nav {
+  background-color: #6495ED;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav ul li {
+display: inline-block;
+background-color:#FFB6C1 ;
+width: 100px;
+text-align: center;
+padding: 10px 0px;
+margin: 0px 20px 0px 0px;
+border: solid; 1px #000;
+}
+
+main {
+  background-color: #FFC0CB;
+  float: left;
+  width: 70%;
+}
+
+
+main div.description img.thumbnail {
+width: 100px;
+border: solid 5px;
+float: left;
+margin-right: 15px;
+color: #4169E1;
+}
+
+div.buttonAbsolute {
+  background-color: #800000;
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  padding: 20px;
+  border-radius: 125px;
+  z-index: 2;
+}
+
+div.buttonAbsolute2 { background-color: #48D1CC;
+   position: absolute;
+  top: 0px;
+  left: 200px;
+  border-radius: 200px;
+  padding: 20px;
+  z-index: 3;
+  width: 100px;
+  height: 80px;
+  opacity: 0.6;
+  text-align: center;
+
+}
+
+aside {
+  background-color: #AFEEEE;
+  float: left;
+  width: 30%;
+}
+footer {
+  background-color: #663399;
+  float: none;
+  clear: both;
+}
+
+
+div.buttonAbsolute, 
+div.buttonAbsolute2
+
+ {
+  color: black;
+}
+
+nav a {color: #008B8B;
+      text-decoration: none;
+      margin: 0px 20px;
+      background-color: #E0FFFF;
+      padding: 10px;
+      border: solid 3px #000;}
+
+
+
