@@ -1,0 +1,110 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+h1 {font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	text-align: center;}
+
+	h2 {font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+text-align: center;
+
+}
+
+
+p, p1 { text-align:center; 
+ font-family: "Lakki Reddy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {font-family: "Alumni Sans Inline One", sans-serif;
+  font-weight:400;
+  font-style: normal;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+ text-transform: uppercase;
+}
+
+.container > * {
+  padding: 20px;
+}
+
+.container {
+  display: flex; /* use flex box */
+  flex-wrap: wrap; /* allows wrapping of flex items */
+  width: 1000px;
+  margin: 0 auto;
+}
+
+
+header {
+	background: #E6E6FA;
+	flex: 1 0 100%;
+	order: 1;
+	background-image:url("images/cool-backgrounds.webp");
+	background-size: 1px;
+	color: black;
+
+}
+
+main {
+	background-image:url("images/HD-wallpaper-iphone-14-pro-max-nature-thumbnail.jpg"); 
+	color:#2E8B57;
+	flex: 1 0 200px;
+	order: 3;
+}
+
+h3, a {color: #FFF5EE;}
+
+nav {
+	background-image:url("images/water.jpg");
+		color:#800000; 
+	flex: 1 0 200px;
+	order: 2;
+}
+
+
+aside {
+background-image:url("images/teenage-boy-his-hands-covering-600nw-1924045124.webp"); 
+color: #ADD8E6;
+		flex: 1 0 200px;
+		order: 4; }
+
+footer {
+	flex: 1 0 100%;
+	order: 5;
+	background-image:url("images/cool-backgrounds.webp");
+	background-size: 1px;
+	color: black;
+}
+
+
+
+
+
+
