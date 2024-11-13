@@ -1,0 +1,129 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+	color: #1E90FF;
+	text-align: center;
+	font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-decoration: underline;e
+}
+
+
+#left-container {
+	left: 0px;
+}
+
+
+#right-container {
+	right: 0px;
+}
+
+
+.container {
+	background-color: #ADD8E6;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+
+.fish {
+	position: absolute;
+	max-width: 110%;
+	max-height: 110%;
+	z-index: 2;
+}
+
+.jelly {
+	position: absolute;
+	max-width: 125%;
+	max-height: 125%;
+	z-index: 2;
+}
+
+.plant {
+	position: absolute;
+	max-width: 125%;
+	max-height: 125%;
+	z-index: 2;
+}
+
+.bubbles {
+	position: absolute;
+	max-width: 125%;
+	max-height: 125%;
+	z-index: 2;
+}
+
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: #AFEEEE;
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+
+.jar-top {
+	width: 50%;
+	height: 5%;
+	background: #008080;
+	position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+
+
+.dirt {
+	width: 60%;
+	height: 12%;
+	background: #D2B48C;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+
+.jar-glossy-long {
+	width: 3%;
+	height: 20%;
+	border-radius: 2rem;
+	background: #4682B4;
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
+}
+
+
+.jar-glossy-short {
+	width: 3%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #4682B4;
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+}
