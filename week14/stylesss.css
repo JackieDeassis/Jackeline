@@ -1,0 +1,166 @@
+body {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    background-image: url('images/vvgu86r.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+   
+}
+
+nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6a9c89; 
+  border-bottom: 3px solid #FFD700; 
+  z-index: 1000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Frijole', cursive; 
+  font-size: 18px;
+  color: #b80000; 
+  padding: 8px 15px;
+  border-radius: 5px; 
+  transition: all 0.3s ease; 
+}
+
+nav ul li a:hover {
+  background-color: #FFD700; 
+  color: #228B22; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+body {
+  padding-top: 60px; 
+}
+
+
+h1 {font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #48856F;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: underline;
+}
+
+.intro-message {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #FBE9DC;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+.music-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.music-item {
+    text-align: center;
+}
+
+.music-box {
+    width: 180px;
+    height: 180px;
+    border: 6px solid #b22222;
+    border-color: #0B6746;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.music-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #b22222;
+}
+
+.music-box-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #F2AE40;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 22px;
+
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 5px auto;
+}
+
+.play-btn {
+    background-color: #F2AE40;
+    color: #fff;
+}
+
+.play-btn:hover {
+    background-color: #008556;
+}
+
+.stop-btn {
+    background-color: #075644;
+    color: #fff;
+}
+
+.stop-btn:hover {
+    background-color: #C93134;
+}
+
+.music-box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    animation: wiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+    0%, 100% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+}

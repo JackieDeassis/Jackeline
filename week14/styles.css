@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('images/snow.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+   
+}
+
+
+nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #bb2525; 
+  border-bottom: 3px solid #5f8670; 
+  z-index: 1000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Frijole', cursive; 
+  font-size: 18px;
+  color: #FFF; /* White text */
+  padding: 8px 15px;
+  border-radius: 5px; 
+  transition: all 0.3s ease; 
+}
+
+nav ul li a:hover {
+  background-color: #f8e4b7; 
+  color: #228B22; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+body {
+  padding-top: 60px; 
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+
+h1 { font-family: "Playwrite DE LA", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 27px;
+    color: #CD5C5C;
+}
+
+
+textarea {
+    width: 95%;
+    height: 200px;
+    margin: 0 auto 20px auto; 
+    padding: 7px;
+    border: 5px solid #2E8B57; 
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    background-color: #87c38f; 
+    display: block; 
+}
+
+button {
+    background-color: #e81d1d;
+    color: #f4f0bb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #a0522d;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2f4f4f; 
+     font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
